@@ -1,0 +1,52 @@
+#home-page {
+    background-image: url("images/nyc.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+body {
+    margin: 0;
+    background-color: black;
+    color: white;
+    font-family: "funnel sans",sans-serif;
+    height:100vh;
+    position:relative;
+}
+
+.title {
+    font-size: 120px;
+    letter-spacing:8px;
+    font-weight: 900;
+}
+
+nav {
+    display:flex;
+    align-items:flex-start;
+    justify-content:space-between;
+    padding-top: 1%;
+}
+
+.selectors {
+    display:flex;
+    gap:0;
+    margin-right: 1%;
+    align-items: center;
+}
+
+.header {
+    color:white;
+    text-decoration: none;
+    margin-left:24px;
+    font-size:14px;
+    padding: 10px;
+
+}
+
+.underlined {
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 5px;
+}
